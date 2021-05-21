@@ -44,6 +44,10 @@ plusBtn.addEventListener("click",function(){
         modalContainer.style.display="none";
     }
 
+    for(let j=0;j<modalColor.length;j++){
+        modalColor[j].classList.remove("border");
+    }
+
     flag=!flag;
 })
 taskBox.addEventListener("keydown",function(e){
